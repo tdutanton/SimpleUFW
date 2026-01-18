@@ -1,5 +1,4 @@
 # SimpleUFW
-Educational project - just simple ufw command to make usual firewall
 
 ПОСТАНОВКА ЗАДАЧИ
 
@@ -58,4 +57,8 @@ sudo ufw allow from 192.168.55.93 to any port 3000 proto tcp comment 'Grafana 93
 sudo ufw allow from 192.168.55.94 to any port 3000 proto tcp comment 'Grafana 94'
 sudo ufw allow from 192.168.55.95 to any port 3000 proto tcp comment 'Grafana 95'
 sudo ufw allow from 192.168.55.128 to any port 3000 proto tcp comment 'Grafana 128'
-``` 
+```
+
+Результат команды ``` sudo ufw status verbose ``` :  
+![Screen_ufw](Screen_ufw.jpg)
+
